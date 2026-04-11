@@ -26,7 +26,6 @@
   }
   body { font-family: 'DM Sans', sans-serif; background: #fff8fb; color: var(--text-dark); min-height: 100vh; }
   .app { display: flex; height: 100vh; overflow: hidden; }
-
   .sidebar {
     width: 220px; flex-shrink: 0;
     background: var(--pink-50);
@@ -36,7 +35,6 @@
   }
   .logo { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--pink-400); margin-bottom: 28px; padding: 0 8px; }
   .logo span { color: var(--text-light); font-size: 12px; display: block; font-family: 'DM Sans'; font-weight: 300; margin-top: 2px; }
-
   .nav-item {
     display: flex; align-items: center; gap: 10px;
     padding: 10px 12px; border-radius: var(--radius-sm);
@@ -47,21 +45,17 @@
   }
   .nav-item:hover { background: var(--pink-100); color: var(--text-dark); }
   .nav-item.active { background: var(--pink-200); color: var(--text-dark); font-weight: 500; }
-
   .stats-mini { margin-top: auto; background: white; border-radius: var(--radius); padding: 14px; border: 1px solid var(--pink-100); }
   .stats-mini-label { font-size: 11px; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
   .stats-mini-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
   .stats-mini-row span:first-child { font-size: 12px; color: var(--text-mid); }
   .stats-mini-row span:last-child { font-size: 13px; font-weight: 500; color: var(--text-dark); }
-
   .main { flex: 1; overflow-y: auto; padding: 32px 36px; }
   .page { display: none; }
   .page.active { display: block; }
-
   .page-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 28px; }
   .page-title { font-family: 'DM Serif Display', serif; font-size: 30px; color: var(--text-dark); }
   .page-sub { font-size: 13px; color: var(--text-light); margin-top: 4px; }
-
   .btn-primary {
     background: var(--pink-300); color: white; border: none;
     padding: 10px 20px; border-radius: 50px; font-size: 13px;
@@ -75,7 +69,6 @@
     border-radius: 50px; font-size: 12px; font-family: 'DM Sans'; cursor: pointer; transition: all 0.15s;
   }
   .btn-ghost:hover { border-color: var(--pink-300); color: var(--text-dark); }
-
   .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 28px; }
   .stat-card { background: white; border-radius: var(--radius); padding: 18px 20px; border: 1px solid var(--pink-100); }
   .stat-card .num { font-family: 'DM Serif Display', serif; font-size: 32px; color: var(--text-dark); line-height: 1; }
@@ -85,15 +78,12 @@
   .dot-interview { background: #ffd6b3; }
   .dot-offer { background: #b3e8cc; }
   .dot-rejected { background: #f0d0d0; }
-
   .section-label { font-size: 11px; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 14px; }
-
   .kanban { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
   .kanban-col { background: var(--pink-50); border-radius: var(--radius); padding: 14px; min-height: 300px; }
   .col-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
   .col-title { font-size: 12px; font-weight: 500; color: var(--text-mid); text-transform: uppercase; letter-spacing: 0.5px; }
   .col-count { background: white; border-radius: 50px; padding: 2px 8px; font-size: 11px; color: var(--text-light); border: 1px solid var(--pink-100); }
-
   .job-card {
     background: white; border-radius: var(--radius-sm);
     padding: 14px; margin-bottom: 10px;
@@ -103,21 +93,16 @@
   .job-company { font-size: 11px; color: var(--text-light); margin-bottom: 3px; }
   .job-title { font-size: 13px; font-weight: 500; color: var(--text-dark); margin-bottom: 8px; }
   .job-meta { display: flex; gap: 6px; flex-wrap: wrap; }
-
   .tag { font-size: 10px; padding: 3px 8px; border-radius: 50px; }
   .tag-remote { background: var(--pink-100); color: var(--pink-500); }
   .tag-full { background: #e8f5f0; color: #2d7a5a; }
   .tag-intern { background: #fff3e0; color: #c47c00; }
   .tag-date { background: var(--mauve); color: var(--text-mid); }
-
   .job-actions { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
   .job-btn { font-size: 10px; padding: 4px 10px; border-radius: 50px; border: 1px solid var(--pink-200); background: none; color: var(--text-mid); cursor: pointer; font-family: 'DM Sans'; transition: all 0.15s; }
   .job-btn:hover { background: var(--pink-100); border-color: var(--pink-300); color: var(--text-dark); }
   .job-btn.ai-btn { background: var(--pink-50); border-color: var(--pink-200); color: var(--pink-400); }
-
   .empty-col { text-align: center; padding: 20px; color: var(--text-light); font-size: 12px; }
-
-  /* Form styles */
   .card-box { background: white; border-radius: 20px; padding: 28px; border: 1px solid var(--pink-100); max-width: 580px; }
   .form-group { margin-bottom: 16px; }
   .form-label { font-size: 12px; color: var(--text-mid); margin-bottom: 6px; display: block; }
@@ -131,13 +116,10 @@
   select.form-input { cursor: pointer; }
   textarea.form-input { min-height: 80px; resize: vertical; }
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-
-  /* AI page */
-  .ai-panel { background: var(--pink-50); border-radius: var(--radius); padding: 24px; border: 1px solid var(--pink-100); margin-top: 0; }
+  .ai-panel { background: var(--pink-50); border-radius: var(--radius); padding: 24px; border: 1px solid var(--pink-100); }
   .ai-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
   .ai-title { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--text-dark); }
   .ai-badge { background: var(--pink-200); color: var(--pink-500); font-size: 11px; padding: 4px 10px; border-radius: 50px; font-weight: 500; }
-
   .ai-job-select { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; min-height: 36px; align-items: center; }
   .ai-job-chip {
     padding: 7px 14px; border-radius: 50px; border: 1px solid var(--pink-200);
@@ -145,7 +127,6 @@
     transition: all 0.15s; font-family: 'DM Sans';
   }
   .ai-job-chip.selected { background: var(--pink-300); color: white; border-color: var(--pink-300); }
-
   .ai-types { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
   .ai-type-btn {
     padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--pink-200);
@@ -155,14 +136,12 @@
   .ai-type-btn:hover { border-color: var(--pink-300); }
   .ai-type-btn.selected { background: var(--pink-100); border-color: var(--pink-300); color: var(--text-dark); font-weight: 500; }
   .ai-type-icon { font-size: 18px; display: block; margin-bottom: 4px; }
-
   .ai-output {
     background: white; border-radius: var(--radius-sm); padding: 18px;
     border: 1px solid var(--pink-100); font-size: 13px; line-height: 1.7;
     color: var(--text-dark); min-height: 120px; white-space: pre-wrap; display: none;
   }
   .ai-output.visible { display: block; }
-
   .ai-loading { display: none; align-items: center; gap: 10px; padding: 20px; color: var(--text-light); font-size: 13px; }
   .ai-loading.visible { display: flex; }
   .dot-pulse { display: flex; gap: 4px; }
@@ -170,23 +149,14 @@
   .dot-pulse span:nth-child(2) { animation-delay: 0.2s; }
   .dot-pulse span:nth-child(3) { animation-delay: 0.4s; }
   @keyframes pulse { 0%,80%,100%{opacity:0.3} 40%{opacity:1} }
-
   .copy-btn { margin-top: 10px; font-size: 11px; background: none; border: 1px solid var(--pink-200); padding: 6px 14px; border-radius: 50px; color: var(--text-mid); cursor: pointer; font-family: 'DM Sans'; }
   .copy-btn:hover { border-color: var(--pink-300); color: var(--text-dark); }
-
-  .note-box { background: #fff3e0; border: 1px solid #ffe0b2; border-radius: var(--radius-sm); padding: 12px 16px; font-size: 12px; color: #a0522d; margin-bottom: 20px; line-height: 1.5; }
-  .note-box a { color: var(--pink-400); }
 </style>
 </head>
 <body>
-
 <div class="app">
-  <!-- Sidebar -->
   <div class="sidebar">
-    <div class="logo">
-      blooming.
-      <span>your career journey ✿</span>
-    </div>
+    <div class="logo">blooming.<span>your career journey ✿</span></div>
     <button class="nav-item active" onclick="showPage('board')">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
       Board
@@ -208,9 +178,7 @@
     </div>
   </div>
 
-  <!-- Main -->
   <div class="main">
-
     <!-- Board -->
     <div class="page active" id="page-board">
       <div class="page-header">
@@ -331,14 +299,6 @@
           <div class="page-sub">Let AI help you put your best foot forward</div>
         </div>
       </div>
-
-      <div class="note-box">
-        ✦ This uses the <strong>Claude API</strong>. Open this file in a browser — the AI features work when you're connected to the internet. Your API key is handled automatically via claude.ai if you opened this from Claude chat, otherwise you may need to add your key below.
-        <br><br>
-        <label style="font-size:12px;">Claude API Key (optional, for standalone use):</label>
-        <input type="password" class="form-input" id="api-key" placeholder="sk-ant-..." style="margin-top:6px;">
-      </div>
-
       <div class="card-box" style="margin-bottom:20px; max-width:100%;">
         <div style="font-size:12px;color:var(--text-light);margin-bottom:10px;">Your background (helps AI personalize output)</div>
         <div class="form-row">
@@ -353,18 +313,15 @@
           <textarea class="form-input" id="u-bg" placeholder="Brief background: skills, years of experience, key highlights..." style="min-height:60px;"></textarea>
         </div>
       </div>
-
       <div class="ai-panel">
         <div class="ai-header">
           <div class="ai-title">Generate with AI</div>
           <div class="ai-badge">✦ AI powered</div>
         </div>
-
         <div style="font-size:12px;color:var(--text-mid);margin-bottom:8px;">Select a job</div>
         <div class="ai-job-select" id="ai-job-chips">
           <div style="font-size:12px;color:var(--text-light);">Add applications first to use AI tools</div>
         </div>
-
         <div style="font-size:12px;color:var(--text-mid);margin-bottom:8px;">What do you need?</div>
         <div class="ai-types">
           <button class="ai-type-btn selected" onclick="selectType(this,'cover_letter')"><span class="ai-type-icon">✉️</span>Cover Letter</button>
@@ -374,12 +331,10 @@
           <button class="ai-type-btn" onclick="selectType(this,'follow_up')"><span class="ai-type-icon">🔔</span>Follow-up Email</button>
           <button class="ai-type-btn" onclick="selectType(this,'why_company')"><span class="ai-type-icon">⭐</span>Why This Co.</button>
         </div>
-
         <button class="btn-primary" onclick="generateAI()" style="margin-bottom:16px;">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
           Generate
         </button>
-
         <div class="ai-loading" id="ai-loading">
           <div class="dot-pulse"><span></span><span></span><span></span></div>
           Writing something wonderful for you...
@@ -388,11 +343,13 @@
         <button class="copy-btn" id="copy-btn" style="display:none" onclick="copyOutput()">Copy to clipboard</button>
       </div>
     </div>
-
   </div>
 </div>
 
 <script>
+// ⬇️ PASTE YOUR API KEY BETWEEN THE QUOTES BELOW
+const MY_API_KEY = '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';
+
 let jobs = JSON.parse(localStorage.getItem('blooming-jobs') || '[]');
 let selectedJobId = null;
 let selectedType = 'cover_letter';
@@ -440,10 +397,7 @@ function addJob() {
     notes: document.getElementById('f-notes').value.trim(),
   };
   jobs.push(job);
-  save();
-  clearForm();
-  renderBoard();
-  showPage('board');
+  save(); clearForm(); renderBoard(); showPage('board');
 }
 
 function clearForm() {
@@ -468,17 +422,14 @@ function moveJob(id, status) {
 function renderBoard() {
   const cols = { applied: [], interview: [], offer: [], rejected: [] };
   jobs.forEach(j => { if (cols[j.status]) cols[j.status].push(j); });
-
   Object.keys(cols).forEach(status => {
     const el = document.getElementById('col-' + status);
     const count = cols[status].length;
     document.getElementById('kcol-' + status).textContent = count;
     document.getElementById('count-' + status).textContent = count;
     document.getElementById('s-' + status).textContent = count;
-
     const msgs = { applied: 'No applications yet', interview: 'None yet', offer: 'Your offer will shine here ✦', rejected: 'Hopefully empty!' };
     if (count === 0) { el.innerHTML = `<div class="empty-col">${msgs[status]}</div>`; return; }
-
     el.innerHTML = cols[status].map(j => {
       const typeTag = j.type === 'Internship' ? `<span class="tag tag-intern">${j.type}</span>` : `<span class="tag tag-full">${j.type}</span>`;
       const modeTag = j.mode === 'Remote' ? `<span class="tag tag-remote">${j.mode}</span>` : `<span class="tag tag-date">${j.mode}</span>`;
@@ -538,7 +489,6 @@ async function generateAI() {
   const name = document.getElementById('u-name').value.trim() || 'the applicant';
   const role = document.getElementById('u-role').value.trim();
   const bg = document.getElementById('u-bg').value.trim();
-  const apiKey = document.getElementById('api-key').value.trim();
 
   const typeLabels = {
     cover_letter: 'cover letter',
@@ -564,13 +514,14 @@ Keep it warm, confident, and professional. For a cover letter: 3-4 paragraphs. F
   document.getElementById('ai-output').textContent = '';
   document.getElementById('copy-btn').style.display = 'none';
 
-  const headers = { 'Content-Type': 'application/json' };
-  if (apiKey) { headers['x-api-key'] = apiKey; headers['anthropic-version'] = '2023-06-01'; }
-
   try {
     const res = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
-      headers,
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': MY_API_KEY,
+        'anthropic-version': '2023-06-01'
+      },
       body: JSON.stringify({
         model: 'claude-sonnet-4-20250514',
         max_tokens: 1000,
